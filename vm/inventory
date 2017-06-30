@@ -1,0 +1,2 @@
+[hsbxl-dashboard]
+172.23.187.109 ansible_ssh_user=hsbxl
