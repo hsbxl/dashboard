@@ -30,4 +30,9 @@ This is a passphrase to decrypt our secrets.yml file, which contains some needed
 
 The HSBXL dashboard will be available at http://local.dashboard.hsbxl.be
 
+Access the VM with
+```
+$ vagrant ssh
+```
+
 https://github.com/hsbxl/dashboard
