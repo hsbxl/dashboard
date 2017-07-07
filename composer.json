@@ -24,8 +24,10 @@
         "drupal/core": "~8.0",
         "drupal/pathauto": "^1.0",
         "drupal/redirect": "^1.0",
+        "drupal/shield": "^1.1",
         "drush/drush": "~8.0",
         "hsbxl/hsbxl_gate": "dev-master",
+        "hsbxl/hsbxl_meeting": "dev-master",
         "hsbxl/hsbxl_payments": "dev-master",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3"
@@ -74,6 +76,7 @@
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
             "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/modules/custom/{$name}": ["type:drupal-custom-module"],
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
