@@ -7,7 +7,7 @@ vagrant_ip: 192.168.20.20
 # Configure the synced folder.
 vagrant_synced_folders:
   - local_path: .
-    destination: /var/www/drupal
+    destination: /var/www/drupalvm
     type: nfs
 
 # Undo some of the extra-hardened security settings in config.yml.
@@ -17,9 +17,12 @@ mysql_root_password: root
 
 php_sendmail_path: "/opt/mailhog/mhsendmail"
 installed_extras:
+  - drupalconsole
   - drush
   - mailhog
+  - upload-progress
   - varnish
+  - xdebug
 
 dashboard_install_dir: /var/www/dashboard
 extra_security_enabled: false
