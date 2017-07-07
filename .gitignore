@@ -22,3 +22,6 @@
 
 # Ignore Vagrant files.
 .vagrant/
+
+# Composer stuff
+composer.lock
