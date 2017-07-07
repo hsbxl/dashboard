@@ -1,12 +1,20 @@
 ---
+
+vagrant_box: geerlingguy/debian9
+
 # Composer project settings.
-drupal_build_composer_project: false
-drupal_build_composer: false
-drupal_composer_dependencies: []
+drupal_build_composer_project: true
+drupal_build_composer: true
+drupal_composer_dependencies:
+  - "hsbxl/hsbxl_gate"
+  - "hsbxl/hsbxl_payments"
+
+drupal_composer_path: false
+drupal_composer_install_dir: "/var/www/drupalvm"
 
 # Drupal install settings.
 drupal_site_name: "HSBXL Dashboard"
-drupal_core_path: "/var/www/drupal/web"
+drupal_core_path: "/var/www/drupalvm/web"
 drupal_install_site: true
 
 # Other overrides.
@@ -59,6 +67,8 @@ drupal_enable_modules:
   - admin_toolbar
   - admin_toolbar_tools
   - hsbxl_gate
+  - hsbxl_meeting
   - hsbxl_payments
   - pathauto
   - redirect
+  - shield
