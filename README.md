@@ -28,5 +28,6 @@ $ DRUPALVM_ANSIBLE_ARGS='--ask-vault-pass' vagrant up
 you will be asked for a vault password at one moment. 
 This is a passphrase to decrypt our secrets.yml file, which contains some needed vars.
 
+The HSBXL dashboard will be available at http://local.dashboard.hsbxl.be
 
 https://github.com/hsbxl/dashboard
