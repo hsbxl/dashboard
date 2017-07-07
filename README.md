@@ -16,6 +16,7 @@ You will need the following installed on your machine:
 - virtualbox https://www.virtualbox.org/wiki/Downloads
 - vagrant https://www.vagrantup.com/docs/installation
 - vagrant hostsupdater plugin https://github.com/cogitatio/vagrant-hostsupdater#installation
+- composer https://getcomposer.org/doc/00-intro.md
 
 ```
 $ git clone https://github.com/hsbxl/dashboard.git
