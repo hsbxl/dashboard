@@ -28,7 +28,7 @@ installed_extras:
   - mailhog
   - memcached
   # - newrelic
-  # - nodejs
+  - nodejs
   - pimpmylog
   # - redis
   # - ruby
@@ -38,7 +38,7 @@ installed_extras:
   - upload-progress
   - varnish
   - xdebug
-  - xhprof
+  # - xhprof
 
 drupalvm_cron_jobs:
   - name: "Drupal Cron"
@@ -70,3 +70,6 @@ drupal_enable_modules:
   - pathauto
   - redirect
   - shield
+
+php_xdebug_default_enable: 1
+php_xdebug_idekey: PHPSTORM
