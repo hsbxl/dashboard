@@ -69,6 +69,8 @@ drupal_enable_modules:
   - hsbxl_gate
   - hsbxl_meeting
   - hsbxl_payments
+  - migrate_source_csv
+  - migrate_tools
   - pathauto
   - redirect
   - shield
