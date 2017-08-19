@@ -64,6 +64,8 @@ varnish_default_backend_port: "81"
 drupal_enable_modules:
   - admin_toolbar
   - admin_toolbar_tools
+  - auto_entitylabel
+  - features_ui
   - hsbxl_gate
   - hsbxl_meeting
   - hsbxl_payments
