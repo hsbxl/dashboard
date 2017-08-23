@@ -68,7 +68,7 @@ drupal_enable_modules:
   - features_ui
   - hsbxl_gate
   - hsbxl_meeting
-  - hsbxl_payments
+  - hsbxl_members
   - migrate_source_csv
   - migrate_tools
   - pathauto
