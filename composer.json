@@ -22,6 +22,7 @@
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/admin_toolbar": "^1.0",
         "drupal/auto_entitylabel": "^2.0@beta",
+        "drupal/cer": "^4.0@alpha",
         "drupal/composer": "^1.4",
         "drupal/config_devel": "^1.0",
         "drupal/console": "~1.0",
