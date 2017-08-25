@@ -78,4 +78,5 @@ drupal_enable_modules:
   - simplified_bookkeeping
 
 php_xdebug_default_enable: 1
+
 php_xdebug_idekey: PHPSTORM

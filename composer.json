@@ -37,6 +37,7 @@
         "drupal/migrate_tools": "4.x-dev",
         "drupal/migrate_ui": "^1.1",
         "drupal/pathauto": "^1.0",
+        "drupal/phantomjs_capture": "1.x-dev",
         "drupal/prepopulate": "^2.0@alpha",
         "drupal/redirect": "^1.0",
         "drupal/shield": "^1.1",
@@ -44,6 +45,7 @@
         "hsbxl/hsbxl_gate": "dev-master",
         "hsbxl/hsbxl_meeting": "dev-master",
         "hsbxl/hsbxl_members": "dev-master",
+        "jakoch/phantomjs-installer": "^2.1",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3"
     },
@@ -64,7 +66,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-      "sort-packages": true
+      "sort-packages": true,
+      "bin-dir": "bin"
     },
     "autoload": {
         "classmap": [
@@ -80,10 +83,12 @@
             "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
         ],
         "post-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+            "PhantomInstaller\\Installer::installPhantomJS"
         ],
         "post-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+            "PhantomInstaller\\Installer::installPhantomJS"
         ]
     },
     "extra": {
