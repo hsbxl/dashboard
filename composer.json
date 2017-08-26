@@ -28,6 +28,7 @@
         "drupal/console": "~1.0",
         "drupal/core": "~8.0",
         "drupal/eck": "^1.0@alpha",
+        "drupal/examples": "1.x-dev",
         "drupal/features": "^3.5",
         "drupal/field_group": "^1.0@RC",
         "drupal/field_permissions": "^1.0@beta",
