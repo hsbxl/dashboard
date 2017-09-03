@@ -13,4 +13,7 @@
 composer.lock
 
 # Private drupal files folder
-private
+private/*
+
+# Exception to .getkeep file, just so folder but no content is in git
+!private/.gitkeep
