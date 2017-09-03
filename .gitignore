@@ -11,3 +11,6 @@
 
 # Composer stuff
 composer.lock
+
+# Private drupal files folder
+private
