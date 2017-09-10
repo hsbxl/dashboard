@@ -1,0 +1,22 @@
+uuid: a359b9d9-4efb-4606-b169-e91a34680eaf
+langcode: en
+status: true
+dependencies:
+  module:
+    - simplified_bookkeeping
+_core:
+  default_config_hash: MRyWM61PNbptrm2uavExkydXBvZn71_RpGmiXREoP9A
+id: booking.field_purchase_commodities
+field_name: field_purchase_commodities
+entity_type: booking
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

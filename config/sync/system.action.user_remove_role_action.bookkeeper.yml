@@ -1,0 +1,14 @@
+uuid: fdc1f391-925c-47fb-ab8f-8f51bb814652
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.bookkeeper
+  module:
+    - user
+id: user_remove_role_action.bookkeeper
+label: 'Remove the Bookkeeper role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: bookkeeper

@@ -1,0 +1,26 @@
+uuid: 4fa3a312-f0ff-4ac1-92f0-3e9b53dfb7bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - field_permissions
+    - simplified_bookkeeping
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: 8wf7FX-fW-zsVBLX1gStB43asfSQ9l2n5w9Yj1YcuE4
+id: booking.field_expensenote_payment_date
+field_name: field_expensenote_payment_date
+entity_type: booking
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

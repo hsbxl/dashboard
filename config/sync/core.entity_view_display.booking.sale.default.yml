@@ -1,0 +1,224 @@
+uuid: 4036cffd-9dc8-491e-aa14-e58268917bf1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.booking.sale.field_bankstatement
+    - field.field.booking.sale.field_booking
+    - field.field.booking.sale.field_booking_valid
+    - field.field.booking.sale.field_payment_form
+    - field.field.booking.sale.field_sale_client
+    - field.field.booking.sale.field_sale_credit_note_ta
+    - field.field.booking.sale.field_sale_date
+    - field.field.booking.sale.field_sale_id
+    - field.field.booking.sale.field_sale_membership_member
+    - field.field.booking.sale.field_sale_memo
+    - field.field.booking.sale.field_sale_payment_date
+    - field.field.booking.sale.field_sale_payment_method
+    - field.field.booking.sale.field_sale_taxable_amount_12
+    - field.field.booking.sale.field_sale_taxable_amount_21
+    - field.field.booking.sale.field_sale_taxable_amount_6
+    - field.field.booking.sale.field_sale_total_amount
+    - field.field.booking.sale.field_sale_vat
+    - field.field.booking.sale.field_sale_vat_credit_note
+    - field.field.booking.sale.field_ta_assets
+    - simplified_bookkeeping.booking_type.sale
+  module:
+    - datetime
+    - options
+    - payment_form
+_core:
+  default_config_hash: kBfyhKyrL5JlRcp7ITo_1CVvKnEybQxJcg8VsHBEZ1U
+id: booking.sale.default
+targetEntityType: booking
+bundle: sale
+mode: default
+content:
+  field_bankstatement:
+    weight: 14
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_booking:
+    weight: 18
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_booking_valid:
+    weight: 16
+    label: inline
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_payment_form:
+    weight: 19
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: payment_form
+    region: content
+  field_sale_client:
+    weight: 3
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_sale_credit_note_ta:
+    weight: 9
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_sale_date:
+    weight: 1
+    label: inline
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_sale_id:
+    weight: 2
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_sale_membership_member:
+    weight: 15
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_sale_memo:
+    weight: 17
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_sale_payment_date:
+    weight: 13
+    label: inline
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_sale_payment_method:
+    weight: 12
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_sale_taxable_amount_12:
+    weight: 6
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_sale_taxable_amount_21:
+    weight: 7
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_sale_taxable_amount_6:
+    weight: 5
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_sale_total_amount:
+    weight: 4
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_sale_vat:
+    weight: 11
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_sale_vat_credit_note:
+    weight: 10
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_ta_assets:
+    weight: 8
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  name:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  user_id: true

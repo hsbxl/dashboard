@@ -1,0 +1,23 @@
+uuid: 5d4eae00-973c-42f7-a7f8-daf91e9fd2f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_sale_date
+    - simplified_bookkeeping.booking_type.sale
+  module:
+    - datetime
+_core:
+  default_config_hash: 5E4ej7RNBaoLxBi-d9RtNfKBfsZcpqhFELUb2nU9pQs
+id: booking.sale.field_sale_date
+field_name: field_sale_date
+entity_type: booking
+bundle: sale
+label: 'Sale date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

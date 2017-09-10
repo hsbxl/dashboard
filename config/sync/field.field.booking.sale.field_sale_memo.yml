@@ -1,0 +1,21 @@
+uuid: 3a87e49d-8e2e-46a1-b3ed-e0b2fd5223e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_sale_memo
+    - simplified_bookkeeping.booking_type.sale
+_core:
+  default_config_hash: XuDdvZo14gnZe-GPZZgZ-FqVOIeWVJTJAo9aV3EF_4o
+id: booking.sale.field_sale_memo
+field_name: field_sale_memo
+entity_type: booking
+bundle: sale
+label: Memo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

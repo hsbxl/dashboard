@@ -1,0 +1,8 @@
+uuid: e7a98139-66db-4391-8adc-7b69ff7638a7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: o6SCIw5LSMf6joMb2RPiRm7qNaaoMHobUEiF9GMPAOA
+id: agenda_item
+label: 'Agenda item'

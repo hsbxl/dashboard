@@ -1,0 +1,25 @@
+uuid: 73029bed-0bb8-48fa-ad7a-9c082d58295a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_purchase_services_various
+    - simplified_bookkeeping.booking_type.purchase
+_core:
+  default_config_hash: 1bNV3aEMx60d2z3AaMf1AvF72VgR4TG_RQSy0kNrkFw
+id: booking.purchase.field_purchase_services_various
+field_name: field_purchase_services_various
+entity_type: booking
+bundle: purchase
+label: 'Services & various goods'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

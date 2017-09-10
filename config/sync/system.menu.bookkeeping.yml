@@ -1,0 +1,10 @@
+uuid: a229d635-e7a7-4632-afa9-2a7303e34c83
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-crTa_k5rAKdtw4ze8cQ5fqmiUOxUVAZ76gUrOTRtDY'
+id: bookkeeping
+label: Bookkeeping
+description: ''
+locked: false

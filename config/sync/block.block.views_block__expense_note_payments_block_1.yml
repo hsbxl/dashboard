@@ -1,0 +1,33 @@
+uuid: 29334a22-3b6d-4ffe-9b82-c87604489d55
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.expense_note_payments
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+_core:
+  default_config_hash: M29pJ17EKEcQkhFa5iJtQvmycGQthuXMyJyitz0iSS4
+id: views_block__expense_note_payments_block_1
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:expense_note_payments-block_1'
+settings:
+  id: 'views_block:expense_note_payments-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: 'booking/*'
+    negate: false
+    context_mapping: {  }

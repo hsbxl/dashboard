@@ -1,0 +1,12 @@
+uuid: 04785008-77c0-4a6b-84b0-6374e73c5413
+langcode: en
+status: true
+dependencies:
+  module:
+    - simplified_bookkeeping
+_core:
+  default_config_hash: CPGna4MsZwEzgchp8Np7x1OL42Vf7BTsBDtmb46Nt2o
+id: booking.full
+label: Full
+targetEntityType: booking
+cache: true

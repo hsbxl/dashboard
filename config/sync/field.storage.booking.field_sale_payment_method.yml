@@ -1,0 +1,33 @@
+uuid: 54a4a323-16b3-4cae-bb9f-8fcfd14b4122
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - options
+    - simplified_bookkeeping
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: 01S1YGTYq6qwCeAhkEU77i7uxTpsrLGI8TYSGKyTlPg
+id: booking.field_sale_payment_method
+field_name: field_sale_payment_method
+entity_type: booking
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: banktransfer
+      label: 'Bank transfer'
+    -
+      value: cash
+      label: Cash
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

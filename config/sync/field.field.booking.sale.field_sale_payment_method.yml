@@ -1,0 +1,23 @@
+uuid: 1ff13c40-d32f-454d-8b73-1e48a9f36dc3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_sale_payment_method
+    - simplified_bookkeeping.booking_type.sale
+  module:
+    - options
+_core:
+  default_config_hash: HpxdeErufNwKhsxc1rVxquHKhqwXUTJbigfdJgg_f7I
+id: booking.sale.field_sale_payment_method
+field_name: field_sale_payment_method
+entity_type: booking
+bundle: sale
+label: 'Payment method'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

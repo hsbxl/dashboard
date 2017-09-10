@@ -1,0 +1,21 @@
+uuid: 61a5c210-371c-42fd-ac71-2e81a1271040
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_purchase_supplier
+    - simplified_bookkeeping.booking_type.purchase
+_core:
+  default_config_hash: s5k-LBWVEo1LtT08mqNS-QEd9ur748rUxij-qrS7YFA
+id: booking.purchase.field_purchase_supplier
+field_name: field_purchase_supplier
+entity_type: booking
+bundle: purchase
+label: Supplier
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

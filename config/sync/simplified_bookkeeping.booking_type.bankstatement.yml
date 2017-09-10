@@ -1,0 +1,8 @@
+uuid: 7b6fae89-0d4f-4b94-82da-507f1131fb1e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: T9BGeUYY4SJBla1ECbeDmCDUWq9cyKYAoUoBe2mvjH4
+id: bankstatement
+label: Bankstatement

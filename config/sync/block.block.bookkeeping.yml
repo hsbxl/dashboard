@@ -1,0 +1,40 @@
+uuid: cdd715c4-3665-40c7-b8f8-42df71fcd77f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.bookkeeping
+  module:
+    - system
+    - user
+  theme:
+    - bartik
+_core:
+  default_config_hash: vJKigET8hL5wtG5ACP96bjXdvH4sRiG6FmrFZAbpQjc
+id: bookkeeping
+theme: bartik
+region: content
+weight: -2
+provider: null
+plugin: 'system_menu_block:bookkeeping'
+settings:
+  id: 'system_menu_block:bookkeeping'
+  label: Bookkeeping
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: "/bookkeeping/bankstatements\r\n/bookkeeping/expensenotes\r\n/bookkeeping/purchases\r\n/bookkeeping/sales"
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+      bookkeeper: bookkeeper
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

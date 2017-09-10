@@ -1,0 +1,18 @@
+alternativeSigns: {  }
+currencyCode: XXX
+currencyNumber: '999'
+label: 'No currency'
+roundingStep: null
+sign: ¤
+subunits: 0
+status: true
+usages:
+  -
+    start: ''
+    end: ''
+    countryCode: AQ
+  -
+    start: ''
+    end: ''
+    countryCode: ZZ
+uuid: ccae2c86-cc64-48d6-a7db-bd499a1b89d5

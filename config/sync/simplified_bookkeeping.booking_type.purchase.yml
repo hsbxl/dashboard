@@ -1,0 +1,8 @@
+uuid: 1d572176-641e-4a43-b774-51482b58ebef
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nOxPNu41Zzy3vURRpScGRJ_FVp69lX_Eb7EKtoEY-5o
+id: purchase
+label: Purchase

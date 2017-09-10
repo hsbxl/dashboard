@@ -1,0 +1,8 @@
+uuid: 6484d340-d665-4583-a22c-c00693031eca
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Zkho81bDVfU6dZ3a5sdjDQI5w7qFfSwUaoB4bOelK14
+id: sale
+label: Sale

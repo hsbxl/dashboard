@@ -1,0 +1,26 @@
+uuid: b32515af-5488-448f-9f1b-9e4b82b210c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - field_permissions
+    - simplified_bookkeeping
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: jeB0vspBws8rykT6x1Y8YI4CGgoPumd80U9qCidEb4A
+id: booking.field_booking_date
+field_name: field_booking_date
+entity_type: booking
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

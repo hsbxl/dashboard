@@ -1,0 +1,8 @@
+uuid: b85bae1f-a35f-4fff-bf02-99ccbb4df6d3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MC9ELdAsDuVNkOonNWkwhOMdJs9T5aXs8amBC9ALj_Y
+id: agenda_topic
+label: 'Agenda topic'

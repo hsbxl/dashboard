@@ -1,0 +1,25 @@
+uuid: 9635a11d-30e0-46b2-a660-53eb774e254a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_purchase_vat
+    - simplified_bookkeeping.booking_type.purchase
+_core:
+  default_config_hash: Kzz5FBlZOwdActyfjuI-NtwI5CjYB9gZxO8QrfImeGw
+id: booking.purchase.field_purchase_vat
+field_name: field_purchase_vat
+entity_type: booking
+bundle: purchase
+label: VAT
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

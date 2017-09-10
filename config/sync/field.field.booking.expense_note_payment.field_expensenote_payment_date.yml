@@ -1,0 +1,26 @@
+uuid: 944981a9-ec49-42ba-acae-8371c8378ceb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_expensenote_payment_date
+    - simplified_bookkeeping.booking_type.expense_note_payment
+  module:
+    - datetime
+_core:
+  default_config_hash: IpkE7gP3HhSruaPh6wrlKT8JBPeAJP5zyYbtUzAuswI
+id: booking.expense_note_payment.field_expensenote_payment_date
+field_name: field_expensenote_payment_date
+entity_type: booking
+bundle: expense_note_payment
+label: 'Payment date'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

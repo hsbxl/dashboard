@@ -1,0 +1,22 @@
+uuid: 59e00f79-4182-4d22-bb01-d031b1072712
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - simplified_bookkeeping
+_core:
+  default_config_hash: UP8Y1knxVBqNQycNiehzeR9yNFgJlKg7q60FxfvIrFI
+id: booking.field_purchase_payment_date
+field_name: field_purchase_payment_date
+entity_type: booking
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

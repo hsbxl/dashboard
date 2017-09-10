@@ -1,0 +1,22 @@
+uuid: a2eb2fc9-7680-4dff-a8fc-930ddea36db0
+langcode: en
+status: true
+dependencies:
+  module:
+    - simplified_bookkeeping
+_core:
+  default_config_hash: nVF0GqlgY4wlyO1R9PX-iVig4mm3mWtPJsxtafkq7MY
+id: booking.field_purchase_credit_note_ta
+field_name: field_purchase_credit_note_ta
+entity_type: booking
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: c93bbc58-61bc-47a0-8d83-89da07686843
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_sale_payment_date
+    - simplified_bookkeeping.booking_type.sale
+  module:
+    - datetime
+_core:
+  default_config_hash: Yx_DelXz8f2s3_P01zw53LKLRzPRHzolZ8-5r47lTes
+id: booking.sale.field_sale_payment_date
+field_name: field_sale_payment_date
+entity_type: booking
+bundle: sale
+label: 'Payment date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,27 @@
+uuid: c2574ade-4770-44e5-9b37-ca42f775d1f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_expense_note
+    - simplified_bookkeeping.booking_type.expense_note_payment
+_core:
+  default_config_hash: ygiPr5J35qU_P61Jfs9rErb9uzMfWYg1cPTFecBBKPU
+id: booking.expense_note_payment.field_expense_note
+field_name: field_expense_note
+entity_type: booking
+bundle: expense_note_payment
+label: 'Expense note'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: expense_notes_filtered
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

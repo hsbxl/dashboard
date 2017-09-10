@@ -1,0 +1,21 @@
+uuid: 8531dd92-61ff-4d49-a265-68e613298c47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_bankstatement_name
+    - simplified_bookkeeping.booking_type.bankstatement
+_core:
+  default_config_hash: JVd-KFHzO9X_uMe_ppduwN-fIGTqZq35m_zyiMV7GuQ
+id: booking.bankstatement.field_bankstatement_name
+field_name: field_bankstatement_name
+entity_type: booking
+bundle: bankstatement
+label: Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

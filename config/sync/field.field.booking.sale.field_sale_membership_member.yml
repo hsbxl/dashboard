@@ -1,0 +1,31 @@
+uuid: 4b4a4a3c-f0ef-4e27-ac4c-3137c4ef8c37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_sale_membership_member
+    - simplified_bookkeeping.booking_type.sale
+_core:
+  default_config_hash: 3umrHgNT7w-20ExvjDkWE4HvQ4J8ORreLlouLrEcoHY
+id: booking.sale.field_sale_membership_member
+field_name: field_sale_membership_member
+entity_type: booking
+bundle: sale
+label: 'Membership member'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: name
+      direction: ASC
+    auto_create: false
+field_type: entity_reference

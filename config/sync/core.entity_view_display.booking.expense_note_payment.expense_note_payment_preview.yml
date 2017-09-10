@@ -1,0 +1,65 @@
+uuid: a0bb2b1f-3f6e-4dd3-81b4-888ab166c663
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.booking.expense_note_payment_preview
+    - field.field.booking.expense_note_payment.field_expense_note
+    - field.field.booking.expense_note_payment.field_expensenote_payed_by
+    - field.field.booking.expense_note_payment.field_expensenote_payed_to
+    - field.field.booking.expense_note_payment.field_expensenote_payment_date
+    - field.field.booking.expense_note_payment.field_expensenote_payment_method
+    - field.field.booking.expense_note_payment.field_expensenote_payment_paid
+    - field.field.booking.expense_note_payment.field_payed_from
+    - simplified_bookkeeping.booking_type.expense_note_payment
+  module:
+    - datetime
+    - options
+_core:
+  default_config_hash: flps1atl3XkSzSXxCKqPdcSgh5SyvRw6jfaeZEcFzAY
+id: booking.expense_note_payment.expense_note_payment_preview
+targetEntityType: booking
+bundle: expense_note_payment
+mode: expense_note_payment_preview
+content:
+  field_expensenote_payment_date:
+    weight: 3
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: bookkeeping_date
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_expensenote_payment_method:
+    weight: 2
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_expensenote_payment_paid:
+    weight: 1
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  name:
+    label: inline
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: true
+    third_party_settings: {  }
+hidden:
+  field_expense_note: true
+  field_expensenote_payed_by: true
+  field_expensenote_payed_to: true
+  field_payed_from: true
+  user_id: true

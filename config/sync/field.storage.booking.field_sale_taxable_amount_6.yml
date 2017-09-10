@@ -1,0 +1,26 @@
+uuid: e94c2cd3-eaf5-4d7f-9aab-4d95659292b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - simplified_bookkeeping
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: QeTMV5-1rkJUGU6KzKX8hbLCa9ZavE75bRcaGBf3ctQ
+id: booking.field_sale_taxable_amount_6
+field_name: field_sale_taxable_amount_6
+entity_type: booking
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

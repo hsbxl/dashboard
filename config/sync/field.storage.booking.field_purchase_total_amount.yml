@@ -1,0 +1,22 @@
+uuid: 2dbfaed9-3b45-4b62-afe6-74a74a13d733
+langcode: en
+status: true
+dependencies:
+  module:
+    - simplified_bookkeeping
+_core:
+  default_config_hash: _qmLMDs0h50-KZxLUDey_kKIVY5R0S7BRpRtlVX3KoU
+id: booking.field_purchase_total_amount
+field_name: field_purchase_total_amount
+entity_type: booking
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

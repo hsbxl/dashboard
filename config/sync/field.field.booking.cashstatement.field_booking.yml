@@ -1,0 +1,32 @@
+uuid: 5cea937e-21e0-4ff3-bfd8-099b3a43ff12
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_booking
+    - simplified_bookkeeping.booking_type.cashstatement
+    - simplified_bookkeeping.booking_type.purchase
+    - simplified_bookkeeping.booking_type.sale
+_core:
+  default_config_hash: uRC567xX4kqMZcpiUHgsfYy6oJrNOmszqubqo03TiiM
+id: booking.cashstatement.field_booking
+field_name: field_booking
+entity_type: booking
+bundle: cashstatement
+label: Booking
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:booking'
+  handler_settings:
+    target_bundles:
+      purchase: purchase
+      sale: sale
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: purchase
+field_type: entity_reference

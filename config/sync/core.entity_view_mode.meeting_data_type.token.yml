@@ -1,0 +1,10 @@
+uuid: 50aeb60b-a370-42e4-8323-e180430c8c0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - hsbxl_meeting
+id: meeting_data_type.token
+label: Token
+targetEntityType: meeting_data_type
+cache: true

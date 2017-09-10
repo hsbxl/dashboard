@@ -1,0 +1,25 @@
+uuid: ffde3f42-16ab-4e5d-89fb-e25cc52ca420
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_booking_valid
+    - simplified_bookkeeping.booking_type.purchase
+_core:
+  default_config_hash: 2NU_nwqBXVH7LprvKHSUEPFOY6KDQVq1OaxSSEn-XqI
+id: booking.purchase.field_booking_valid
+field_name: field_booking_valid
+entity_type: booking
+bundle: purchase
+label: Valid
+description: 'Is this booking valid?'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

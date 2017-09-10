@@ -1,0 +1,10 @@
+uuid: 30247401-cdc1-46da-baaf-ab0701bc5fd7
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.token
+label: Token
+targetEntityType: user
+cache: true

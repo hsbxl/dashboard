@@ -1,0 +1,14 @@
+uuid: 351a5a3b-a8e6-4931-8963-ab00bd5f5fd3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WbJFQOpqvz28uKqR6y00tS-nwGr5DreExyEAR-rjbts
+id: expense_note_payments
+label: 'Expense note payments'
+enabled: true
+first_field: field_expensenote_payments
+second_field: field_expense_note
+bundles:
+  booking:
+    - '*'

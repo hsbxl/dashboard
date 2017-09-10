@@ -1,0 +1,23 @@
+uuid: 94e8714f-3157-429e-a4b2-5bb1755904d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_bankstatement_date
+    - simplified_bookkeeping.booking_type.bankstatement
+  module:
+    - datetime
+_core:
+  default_config_hash: 4oY72u-6Y6nK2WRvIxPxKFqFQ9Vr_N0VWnW_qQcd1MM
+id: booking.bankstatement.field_bankstatement_date
+field_name: field_bankstatement_date
+entity_type: booking
+bundle: bankstatement
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

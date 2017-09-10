@@ -1,0 +1,25 @@
+uuid: 68e72045-2f3f-443d-8272-b38b03c60388
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - simplified_bookkeeping
+_core:
+  default_config_hash: EpQ20mY1gWWSXDWcIxTkON2WzZdXvv9pjjRF4njhM6k
+id: booking.field_purchase_expense_note
+field_name: field_purchase_expense_note
+entity_type: booking
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

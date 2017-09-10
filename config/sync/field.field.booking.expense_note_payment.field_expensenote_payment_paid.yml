@@ -1,0 +1,25 @@
+uuid: 0c0e416d-f659-4d4d-bf17-24854da442ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_expensenote_payment_paid
+    - simplified_bookkeeping.booking_type.expense_note_payment
+_core:
+  default_config_hash: g9GmbqiRsfDCfgUPvghOmUEAA8IdqMdiVRqsPTiJ7FE
+id: booking.expense_note_payment.field_expensenote_payment_paid
+field_name: field_expensenote_payment_paid
+entity_type: booking
+bundle: expense_note_payment
+label: Paid
+description: 'The amount what was paid back.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: €
+  suffix: ''
+field_type: decimal

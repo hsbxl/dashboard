@@ -1,0 +1,27 @@
+uuid: 95dcbbfb-2160-4c39-92cf-a1c37b8fd797
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - simplified_bookkeeping
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: ZjLrO06vNdrl6e49dxl7LmEv3ULoPssVTBa22xoEJp8
+id: booking.field_payed_from
+field_name: field_payed_from
+entity_type: booking
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

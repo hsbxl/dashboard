@@ -1,0 +1,26 @@
+uuid: f05dc489-172e-4f36-b5c3-a47a0901ae54
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - simplified_bookkeeping
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: 80rdc3zzYbYcLmb7jmzSkAA9B5dQFyQGq2fV0Xz32Jw
+id: booking.field_sale_credit_note_ta
+field_name: field_sale_credit_note_ta
+entity_type: booking
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

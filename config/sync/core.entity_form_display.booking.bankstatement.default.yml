@@ -1,0 +1,85 @@
+uuid: 5c11f618-b700-4966-b85e-5f98e9b05c58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.booking.bankstatement.field_bankstatement_account
+    - field.field.booking.bankstatement.field_bankstatement_date
+    - field.field.booking.bankstatement.field_bankstatement_memo
+    - field.field.booking.bankstatement.field_bankstatement_name
+    - field.field.booking.bankstatement.field_booking
+    - field.field.booking.bankstatement.field_booking_amount
+    - simplified_bookkeeping.booking_type.bankstatement
+  module:
+    - datetime
+_core:
+  default_config_hash: 7RqFRt7idKkfJZrwowb6UcfW5y6v9LJbpWAY4p0j9lQ
+id: booking.bankstatement.default
+targetEntityType: booking
+bundle: bankstatement
+mode: default
+content:
+  field_bankstatement_account:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_bankstatement_date:
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_bankstatement_memo:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_bankstatement_name:
+    weight: 29
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_booking:
+    weight: 31
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_booking_amount:
+    weight: 32
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

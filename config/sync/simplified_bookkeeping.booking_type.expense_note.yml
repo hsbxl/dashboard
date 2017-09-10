@@ -1,0 +1,8 @@
+uuid: bd0f582a-a38b-4f3f-b9b9-c3f8c6d90117
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: UuBuHMYdXLOVDACyyb0OU5El2S3PwOUjlEg3QT8TD80
+id: expense_note
+label: 'Expense note'

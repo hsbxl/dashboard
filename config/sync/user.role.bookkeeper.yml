@@ -1,0 +1,11 @@
+uuid: cb81aa1c-1612-4cbd-ad31-4e904ecf1e17
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1i8Bt9dj-3AvtBae9XSGJnztjIP8HmmqcbPtXOCEtkg
+id: bookkeeper
+label: Bookkeeper
+weight: 3
+is_admin: null
+permissions: {  }

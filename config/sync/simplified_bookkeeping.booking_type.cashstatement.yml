@@ -1,0 +1,8 @@
+uuid: d1cdc84e-f863-4549-9ea0-d256243650e8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: RDd9DXKKDxRQevAynPu-xYSBtdANZmlZqMdOD_EgQjU
+id: cashstatement
+label: Cashstatement

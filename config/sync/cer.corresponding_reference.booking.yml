@@ -1,0 +1,14 @@
+uuid: 06bbda33-702c-4b2d-8941-eee473705355
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 37Q9MLa02cwOv6aHDdscVpqUEU_QlWTqx5qJJIzgd3A
+id: booking
+label: Booking
+enabled: true
+first_field: field_booking
+second_field: field_booking
+bundles:
+  booking:
+    - '*'

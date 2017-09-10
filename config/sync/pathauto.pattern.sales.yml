@@ -1,0 +1,24 @@
+uuid: d8a79010-935b-4a95-ac53-8f3ef1c47065
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+_core:
+  default_config_hash: tvol4zdGTWgGEcRZYfdqkEWdqw6HPYPk6BAMI93YLMU
+id: sales
+label: Sales
+type: 'canonical_entities:booking'
+pattern: 'bookkeeping/sales/[booking:name]'
+selection_criteria:
+  e64e3891-7c8d-4302-9779-9a251a953099:
+    id: 'entity_bundle:booking'
+    bundles:
+      sale: sale
+    negate: false
+    context_mapping:
+      booking: booking
+    uuid: e64e3891-7c8d-4302-9779-9a251a953099
+selection_logic: and
+weight: -5
+relationships: {  }

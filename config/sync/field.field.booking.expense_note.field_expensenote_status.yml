@@ -1,0 +1,25 @@
+uuid: 6938848d-0e43-40f8-bb78-3b2be135f1d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_expensenote_status
+    - simplified_bookkeeping.booking_type.expense_note
+  module:
+    - options
+_core:
+  default_config_hash: VZwKZ_uBeR1irnCMlEQhCG6t0lp4KGD3rLvJBWnGzsc
+id: booking.expense_note.field_expensenote_status
+field_name: field_expensenote_status
+entity_type: booking
+bundle: expense_note
+label: Status
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: open
+default_value_callback: ''
+settings: {  }
+field_type: list_string

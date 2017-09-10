@@ -1,0 +1,26 @@
+uuid: 895b77ad-0a5b-45c4-b7ca-d04bba2f0932
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_purchase_date
+    - simplified_bookkeeping.booking_type.purchase
+  module:
+    - datetime
+_core:
+  default_config_hash: zZs2-tWUgIW6_2MnVAAknZs2Bj3szUObhqumnlqb5as
+id: booking.purchase.field_purchase_date
+field_name: field_purchase_date
+entity_type: booking
+bundle: purchase
+label: 'Purchase Date'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,7 @@
+uuid: 571f28f6-c9c9-441b-bf93-adb2e1c071c0
+langcode: en
+status: true
+dependencies: {  }
+id: moll
+label: 'Mollie Test'
+apiKey: test_TtQJ8rFADEVAP6t45AFKTJvjMBGAUc

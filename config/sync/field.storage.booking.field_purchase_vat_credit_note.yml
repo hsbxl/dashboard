@@ -1,0 +1,22 @@
+uuid: 1e3e2c94-7dd3-4fc0-aa88-a180780a34ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - simplified_bookkeeping
+_core:
+  default_config_hash: tX8xSn6U23vMRN9hNkQPHnYSiXUYN8bu87FiC6IvZBY
+id: booking.field_purchase_vat_credit_note
+field_name: field_purchase_vat_credit_note
+entity_type: booking
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

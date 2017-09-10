@@ -1,0 +1,25 @@
+uuid: 0ac01d79-64e3-4103-9890-ba23da94153c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_sale_taxable_amount_6
+    - simplified_bookkeeping.booking_type.sale
+_core:
+  default_config_hash: l6oNAKLEI7fVMDtixlFgB1r0wuDjBrUoCetDSx4Clz8
+id: booking.sale.field_sale_taxable_amount_6
+field_name: field_sale_taxable_amount_6
+entity_type: booking
+bundle: sale
+label: 'TA 6%'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

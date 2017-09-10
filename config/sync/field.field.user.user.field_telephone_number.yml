@@ -1,0 +1,23 @@
+uuid: 1cebf7f8-e371-4a21-83f3-f0b4f7688da6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_telephone_number
+  module:
+    - telephone
+    - user
+_core:
+  default_config_hash: 5gW7iCzang4GbPAHNYSGnZ-p9IrBCt0TMn4RvW6LA2c
+id: user.user.field_telephone_number
+field_name: field_telephone_number
+entity_type: user
+bundle: user
+label: 'Telephone number'
+description: 'Only viewable to you and administrators.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

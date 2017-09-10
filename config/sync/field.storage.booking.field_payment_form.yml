@@ -1,0 +1,23 @@
+uuid: ae0306d2-dad0-475a-b332-5fbcb9d73dc4
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - payment_form
+    - simplified_bookkeeping
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: booking.field_payment_form
+field_name: field_payment_form
+entity_type: booking
+type: payment_form
+settings: {  }
+module: payment_form
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

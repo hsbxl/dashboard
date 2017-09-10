@@ -1,0 +1,25 @@
+uuid: 490d4fbc-0625-4467-a793-442507b4f8ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_booking_amount
+    - simplified_bookkeeping.booking_type.bankstatement
+_core:
+  default_config_hash: ysIAXaHwKglRbMbztxSr8qOC1pk2TaX53xxaNi1HhNo
+id: booking.bankstatement.field_booking_amount
+field_name: field_booking_amount
+entity_type: booking
+bundle: bankstatement
+label: Amount
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

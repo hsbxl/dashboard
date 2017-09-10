@@ -1,0 +1,22 @@
+uuid: 8e8f8a63-774b-4ae4-90db-df0e8d84f2ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - simplified_bookkeeping
+_core:
+  default_config_hash: riKEaNKBXzYDoMHMqIJi5NhfgR1EtF-dlyvecVocN2Y
+id: booking.field_purchase_assets
+field_name: field_purchase_assets
+entity_type: booking
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

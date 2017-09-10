@@ -1,0 +1,16 @@
+uuid: 32babfe6-1cf2-4a33-8350-18a242c6b39a
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: 4e5v6_XVdcEPqJYtzCo7BfO8WT3nYfhnDZ5L99R2mnA
+id: members
+label: members
+type: 'canonical_entities:user'
+pattern: 'member/[user:account-name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

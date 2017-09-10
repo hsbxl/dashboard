@@ -1,0 +1,31 @@
+uuid: a86163d0-19fb-4109-be71-94be6bf136aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_expensenote_payed_by
+    - simplified_bookkeeping.booking_type.expense_note_payment
+_core:
+  default_config_hash: a0ykERTYJdiHupvH39e0LgPhu5ApuF9k3rGu49dKsSc
+id: booking.expense_note_payment.field_expensenote_payed_by
+field_name: field_expensenote_payed_by
+entity_type: booking
+bundle: expense_note_payment
+label: 'Payed by'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: name
+      direction: ASC
+    auto_create: false
+field_type: entity_reference

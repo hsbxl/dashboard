@@ -1,0 +1,25 @@
+uuid: c5a5a3b5-6702-4471-b3d8-3271f17785ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_sale_taxable_amount_21
+    - simplified_bookkeeping.booking_type.sale
+_core:
+  default_config_hash: Zqk-s3yNZJ1O9_a3EnagGIXAg45TQUZYQDw1EPWgnCA
+id: booking.sale.field_sale_taxable_amount_21
+field_name: field_sale_taxable_amount_21
+entity_type: booking
+bundle: sale
+label: 'TA 21%'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

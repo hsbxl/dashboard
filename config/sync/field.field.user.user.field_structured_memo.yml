@@ -1,0 +1,22 @@
+uuid: eb392f0e-5c8e-476b-b709-ad18c805154e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_structured_memo
+  module:
+    - user
+_core:
+  default_config_hash: g3rI0xF22FQ-D8JxaVsR56INSceZhXzdneU16EtCOs4
+id: user.user.field_structured_memo
+field_name: field_structured_memo
+entity_type: user
+bundle: user
+label: 'Structured memo'
+description: "Use this as a 'structured memo' when sending payments by bank transfer.\r\nThis way we can map for which person this payment is."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

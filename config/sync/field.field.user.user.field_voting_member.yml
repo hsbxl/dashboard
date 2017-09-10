@@ -1,0 +1,26 @@
+uuid: d92869d2-b706-4eef-9ac5-dcd12c53c223
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_voting_member
+  module:
+    - user
+_core:
+  default_config_hash: Q00X8_oFgzCZLeVZCeL8DAs-8q3_QT62CvgSF9MupUg
+id: user.user.field_voting_member
+field_name: field_voting_member
+entity_type: user
+bundle: user
+label: 'Voting member'
+description: 'Is this member a voting member? If selected, this member will be listed on the legal members list which we need to give when asked by officials.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

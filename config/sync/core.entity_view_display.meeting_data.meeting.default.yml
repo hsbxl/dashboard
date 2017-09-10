@@ -1,0 +1,23 @@
+uuid: ea3ae7f7-cfed-4cb9-8578-c214e6ee2a03
+langcode: en
+status: true
+dependencies:
+  config:
+    - hsbxl_meeting.meeting_data_type.meeting
+_core:
+  default_config_hash: B9rsySqzL6yvNR6YhaItnfYd-j_RtbObRvGa95DCV1U
+id: meeting_data.meeting.default
+targetEntityType: meeting_data
+bundle: meeting
+mode: default
+content:
+  name:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  user_id: true

@@ -1,0 +1,21 @@
+uuid: 2a002709-95db-4582-939c-35e35f8d2944
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_bankstatement_memo
+    - simplified_bookkeeping.booking_type.bankstatement
+_core:
+  default_config_hash: 5-o9dffFbE_3pOfMDp38VrzEYi4hW7THlOYzfr8WYeI
+id: booking.bankstatement.field_bankstatement_memo
+field_name: field_bankstatement_memo
+entity_type: booking
+bundle: bankstatement
+label: Memo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

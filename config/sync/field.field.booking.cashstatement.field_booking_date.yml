@@ -1,0 +1,23 @@
+uuid: 397dc55c-1391-4350-a4f9-cb84d44a090d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_booking_date
+    - simplified_bookkeeping.booking_type.cashstatement
+  module:
+    - datetime
+_core:
+  default_config_hash: OolwcT0cEhZyDlmWOoU_Ld63VNZ1T92MVrCYX4tecfU
+id: booking.cashstatement.field_booking_date
+field_name: field_booking_date
+entity_type: booking
+bundle: cashstatement
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

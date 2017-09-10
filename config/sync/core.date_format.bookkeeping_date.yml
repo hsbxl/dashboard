@@ -1,0 +1,10 @@
+uuid: 63442b37-a9d5-4814-a421-00e849e145ee
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: fv6R6ycF2I-ks_uGWg55il7pez-ffLpdZSoPq1eLKtA
+id: bookkeeping_date
+label: 'Bookkeeping date'
+locked: false
+pattern: d-m-Y

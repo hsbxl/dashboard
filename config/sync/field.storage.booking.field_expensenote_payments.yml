@@ -1,0 +1,25 @@
+uuid: 9f63f078-e16e-4a3e-805d-859710dd2197
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - simplified_bookkeeping
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: fHMY3OiTEYmikb6SjcxS44ODeYcOUS0qnWg-A6n13zc
+id: booking.field_expensenote_payments
+field_name: field_expensenote_payments
+entity_type: booking
+type: entity_reference
+settings:
+  target_type: booking
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

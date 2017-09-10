@@ -1,0 +1,8 @@
+uuid: db84b5b4-e4de-4e70-9695-54a5ad41a3ca
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yYyaqTus1c01bxqKOOkn26kgDNOK97JCP2Tv2x3DoA0
+id: expense_note_payment
+label: 'Expense note payment'

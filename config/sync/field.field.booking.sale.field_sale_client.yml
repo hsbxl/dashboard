@@ -1,0 +1,21 @@
+uuid: 249d71d9-c57a-4ae5-b1a7-8de5afe2992b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_sale_client
+    - simplified_bookkeeping.booking_type.sale
+_core:
+  default_config_hash: eucc7Jnze4MCVcSmLVemdjidD-oo7ZS16jKEB3TwniY
+id: booking.sale.field_sale_client
+field_name: field_sale_client
+entity_type: booking
+bundle: sale
+label: Client
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

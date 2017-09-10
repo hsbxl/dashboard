@@ -1,0 +1,23 @@
+uuid: 4f7899d7-430e-427b-a0a2-e881430a90b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_purchase_payment_method
+    - simplified_bookkeeping.booking_type.purchase
+  module:
+    - text
+_core:
+  default_config_hash: QJMyFf53HqKu0KjRYAh-In3zSWnhX53jmSsXQe83nP4
+id: booking.purchase.field_purchase_payment_method
+field_name: field_purchase_payment_method
+entity_type: booking
+bundle: purchase
+label: 'Payment method'
+description: "cash|Cash\r\nbanktransfer|Bank transfer"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

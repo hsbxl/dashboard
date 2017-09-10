@@ -1,0 +1,25 @@
+uuid: c5d591df-48b1-4b1b-8ef0-4db78a002f03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_purchase_total_amount
+    - simplified_bookkeeping.booking_type.purchase
+_core:
+  default_config_hash: 8ahaI1IBxhdimsaxU8fgAjuYYCuQvMEknpslZL7IccA
+id: booking.purchase.field_purchase_total_amount
+field_name: field_purchase_total_amount
+entity_type: booking
+bundle: purchase
+label: 'Total amount'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

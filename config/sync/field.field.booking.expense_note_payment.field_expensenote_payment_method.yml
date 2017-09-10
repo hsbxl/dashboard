@@ -1,0 +1,23 @@
+uuid: 2aad4a2b-cd79-4f32-80cb-27a19b6fea4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_expensenote_payment_method
+    - simplified_bookkeeping.booking_type.expense_note_payment
+  module:
+    - options
+_core:
+  default_config_hash: bOIceEYgwm__PqiqZNZXmurN5oiKaxciBCoSGHkSRxE
+id: booking.expense_note_payment.field_expensenote_payment_method
+field_name: field_expensenote_payment_method
+entity_type: booking
+bundle: expense_note_payment
+label: 'Payment method'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

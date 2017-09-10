@@ -1,0 +1,174 @@
+uuid: c9d2f0e4-8c43-4e4f-ad40-f8377d12c54c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.booking.sale.field_bankstatement
+    - field.field.booking.sale.field_booking
+    - field.field.booking.sale.field_booking_valid
+    - field.field.booking.sale.field_payment_form
+    - field.field.booking.sale.field_sale_client
+    - field.field.booking.sale.field_sale_credit_note_ta
+    - field.field.booking.sale.field_sale_date
+    - field.field.booking.sale.field_sale_id
+    - field.field.booking.sale.field_sale_membership_member
+    - field.field.booking.sale.field_sale_memo
+    - field.field.booking.sale.field_sale_payment_date
+    - field.field.booking.sale.field_sale_payment_method
+    - field.field.booking.sale.field_sale_taxable_amount_12
+    - field.field.booking.sale.field_sale_taxable_amount_21
+    - field.field.booking.sale.field_sale_taxable_amount_6
+    - field.field.booking.sale.field_sale_total_amount
+    - field.field.booking.sale.field_sale_vat
+    - field.field.booking.sale.field_sale_vat_credit_note
+    - field.field.booking.sale.field_ta_assets
+    - simplified_bookkeeping.booking_type.sale
+  module:
+    - datetime
+    - payment_form
+_core:
+  default_config_hash: u9dG843ubjBJPwWRhc8msfgregvg38ygMa_PyPWUvfo
+id: booking.sale.default
+targetEntityType: booking
+bundle: sale
+mode: default
+content:
+  field_booking:
+    weight: 15
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_booking_valid:
+    weight: 14
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_payment_form:
+    weight: 31
+    settings: {  }
+    third_party_settings: {  }
+    type: payment_form
+    region: content
+  field_sale_client:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_sale_credit_note_ta:
+    weight: 9
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_sale_date:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_sale_id:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_sale_membership_member:
+    type: entity_reference_autocomplete
+    weight: 16
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_sale_memo:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_sale_payment_date:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_sale_payment_method:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_sale_taxable_amount_12:
+    weight: 6
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_sale_taxable_amount_21:
+    weight: 7
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_sale_taxable_amount_6:
+    weight: 5
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_sale_total_amount:
+    weight: 4
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_sale_vat:
+    weight: 11
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_sale_vat_credit_note:
+    weight: 10
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_ta_assets:
+    weight: 8
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_bankstatement: true
+  name: true
+  user_id: true

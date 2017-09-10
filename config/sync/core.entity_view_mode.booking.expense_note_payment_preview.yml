@@ -1,0 +1,12 @@
+uuid: 4cf91adb-889f-45fa-b874-8f2afdfd103c
+langcode: en
+status: true
+dependencies:
+  module:
+    - simplified_bookkeeping
+_core:
+  default_config_hash: A12-au3HA1N8vdJD_WC7ZWg2vQYXyh6HEPhGi3Uium4
+id: booking.expense_note_payment_preview
+label: 'Expense note payment preview'
+targetEntityType: booking
+cache: true

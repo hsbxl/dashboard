@@ -1,0 +1,60 @@
+uuid: c77b8b0c-bbb4-4dad-850f-1fb9b7d7aad0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-G3RP6qsMvYMSJS6NvLaE0cWpMYocV50EaZg8cYXglI'
+id: hsbxl_members
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: null
+label: 'Import HSBXL members'
+source:
+  plugin: csv
+  path: /home/vagrant/members.csv
+  delimiter: ','
+  enclosure: '"'
+  header_row_count: 1
+  keys:
+    - id
+  column_names:
+    -
+      id: 'CSV ID'
+    -
+      date: 'Entry date'
+    -
+      first_name: 'First name'
+    -
+      last_name: 'Last name'
+    -
+      username: Username
+    -
+      telephone: Telephone
+    -
+      email: Email
+    -
+      memo: 'Structured memo'
+process:
+  name:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: username
+  mail:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: email
+  status:
+    -
+      plugin: default_value
+      default_value: 1
+  field_first_name: first_name
+  field_last_name: last_name
+  field_telephone_number: telephone
+  field_structured_memo: memo
+destination:
+  plugin: 'entity:user'
+migration_dependencies: null

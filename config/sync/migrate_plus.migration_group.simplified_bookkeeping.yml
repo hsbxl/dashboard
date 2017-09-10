@@ -1,0 +1,12 @@
+uuid: fa3a39fc-60a9-4977-aaa6-4d2bc9b08f70
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 0-rCDHxE3u58eq5EgMt5YGwnBky8FBoNwuruCDW0YY4
+id: simplified_bookkeeping
+label: simplified_bookkeeping
+description: ''
+source_type: null
+module: null
+shared_configuration: null

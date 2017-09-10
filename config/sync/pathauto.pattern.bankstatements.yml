@@ -1,0 +1,24 @@
+uuid: defd0045-609e-4deb-86b5-3b7d53b10646
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+_core:
+  default_config_hash: IwlqWJwW8tiOSjyguXr93EudaNazmQNZl2revfSh51Q
+id: bankstatements
+label: Bankstatements
+type: 'canonical_entities:booking'
+pattern: 'bookkeeping/bankstatements/[booking:name]'
+selection_criteria:
+  4044151d-25c0-4e33-9906-978771647b15:
+    id: 'entity_bundle:booking'
+    bundles:
+      bankstatement: bankstatement
+    negate: false
+    context_mapping:
+      booking: booking
+    uuid: 4044151d-25c0-4e33-9906-978771647b15
+selection_logic: and
+weight: -5
+relationships: {  }

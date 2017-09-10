@@ -1,0 +1,31 @@
+uuid: d9aace49-b2e5-4241-8968-de3bbd0fe1a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_payment_form
+    - simplified_bookkeeping.booking_type.sale
+  module:
+    - payment_form
+id: booking.sale.field_payment_form
+field_name: field_payment_form
+entity_type: booking
+bundle: sale
+label: 'Payment form'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    plugin_id: payment_basic
+    plugin_configuration:
+      name: payment_basic
+      quantity: '1'
+      amount: '25'
+      currency_code: XXX
+      description: 'HSBXL Membership'
+    plugin_configuration_schema_id: plugin.plugin_configuration.payment_line_item.payment_basic
+default_value_callback: ''
+settings:
+  currency_code: XXX
+field_type: payment_form

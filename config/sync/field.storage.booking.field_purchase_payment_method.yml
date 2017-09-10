@@ -1,0 +1,22 @@
+uuid: 2dea659d-3fd4-4704-b3ea-5fb8bb2c650e
+langcode: en
+status: true
+dependencies:
+  module:
+    - simplified_bookkeeping
+    - text
+_core:
+  default_config_hash: UcLzJNgxOEZDHCTxaEI7IrzPIlgdMsUHcR28tpYuwzE
+id: booking.field_purchase_payment_method
+field_name: field_purchase_payment_method
+entity_type: booking
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

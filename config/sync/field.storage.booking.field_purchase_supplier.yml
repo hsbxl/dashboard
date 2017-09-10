@@ -1,0 +1,23 @@
+uuid: cac3e3b5-4505-43d5-9fdc-b3349cef7e4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - simplified_bookkeeping
+_core:
+  default_config_hash: v_SYzEwdXmomQWTbr0YPuQGuErpEzVfslL4dp7BeQRA
+id: booking.field_purchase_supplier
+field_name: field_purchase_supplier
+entity_type: booking
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

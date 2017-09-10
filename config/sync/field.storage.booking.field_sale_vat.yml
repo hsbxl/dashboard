@@ -1,0 +1,26 @@
+uuid: 828114ac-f279-482a-8ecf-7633d47ba12a
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - simplified_bookkeeping
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: vhjMZPmfmSp0Eca4CrQ_bxPql6HyvA2ALPRikVREHsA
+id: booking.field_sale_vat
+field_name: field_sale_vat
+entity_type: booking
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,29 @@
+uuid: 89f80731-0dfb-4386-8d2a-df01be94ffa5
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - file
+    - simplified_bookkeeping
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: ptaV6EtU_GQQgJDXvjKqDkqjpIG5vN4Lmw3L9nmst1w
+id: booking.field_cashstatement_attachment
+field_name: field_cashstatement_attachment
+entity_type: booking
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

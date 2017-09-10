@@ -1,0 +1,26 @@
+uuid: 34efc116-8e67-41b0-945e-fd0b21ad99dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_board_member
+  module:
+    - user
+_core:
+  default_config_hash: u3sp6PlvKWbkkIPtOlmI0IMjK-kH4kqZH9a9mcnsXEk
+id: user.user.field_board_member
+field_name: field_board_member
+entity_type: user
+bundle: user
+label: 'Board member'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

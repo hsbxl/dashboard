@@ -1,0 +1,65 @@
+uuid: f8f672bb-9d4e-4f01-8977-e15adfc05f47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.booking.expense_note.field_expense_note_attachment
+    - field.field.booking.expense_note.field_expensenote_amount
+    - field.field.booking.expense_note.field_expensenote_member
+    - field.field.booking.expense_note.field_expensenote_payments
+    - field.field.booking.expense_note.field_expensenote_status
+    - simplified_bookkeeping.booking_type.expense_note
+  module:
+    - file
+    - options
+_core:
+  default_config_hash: vaXlANK9sfkk7y7NcLr_m0BlHX8KihCvPkITsTsebtM
+id: booking.expense_note.default
+targetEntityType: booking
+bundle: expense_note
+mode: default
+content:
+  field_expense_note_attachment:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_expensenote_amount:
+    weight: 1
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_expensenote_member:
+    weight: 3
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_expensenote_status:
+    weight: 2
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  name:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_expensenote_payments: true
+  user_id: true
