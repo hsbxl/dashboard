@@ -26,6 +26,7 @@
         "drupal/cer": "^4.0@alpha",
         "drupal/composer": "^1.4",
         "drupal/config_devel": "^1.0",
+        "drupal/config_installer": "^1.4",
         "drupal/console": "~1.0",
         "drupal/core": "~8.0",
         "drupal/eck": "^1.0@alpha",
