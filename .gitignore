@@ -17,3 +17,9 @@ private/*
 
 # Exception to .getkeep file, just so folder but no content is in git
 !private/.gitkeep
+
+#PDF folder
+pdf/*
+
+# Exception for the gitkeep file
+!pdf/.gitkeep
