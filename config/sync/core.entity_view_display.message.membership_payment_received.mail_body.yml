@@ -1,0 +1,17 @@
+uuid: e7f2e155-6aa9-4937-b517-1fb54661b3b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.message.mail_body
+    - message.template.membership_payment_received
+id: message.membership_payment_received.mail_body
+targetEntityType: message
+bundle: membership_payment_received
+mode: mail_body
+content:
+  partial_1:
+    weight: 0
+    region: content
+hidden:
+  partial_0: true

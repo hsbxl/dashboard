@@ -1,0 +1,5 @@
+decimalSeparator: ','
+groupingSeparator: .
+locale: en_BE
+pattern: '#,##0.00 ¤'
+uuid: dd6982fc-cdc3-4e38-b5e9-909ad63543ce

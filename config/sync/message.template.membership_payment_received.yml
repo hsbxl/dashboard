@@ -1,0 +1,17 @@
+uuid: 010d00cd-e11b-4f38-835c-a764f64a32f4
+langcode: en
+status: true
+dependencies: {  }
+template: membership_payment_received
+label: 'Membership payment received'
+description: ''
+text:
+  -
+    value: "<p>Hello <a href=\"void(0);\">[user:display-name]</a>!</p>\r\n\r\n<p>I received and processed your membership payment of €<a href=\"void(0);\">[booking:field_sale_total_amount:value]</a>&nbsp;successfully.<br />\r\nThanks for supporting the space, and hope to see you around!</p>\r\n\r\n<p>You can view all your previous payments on your profile page on:<br />\r\n<a href=\"void(0);\">[site:url]</a>/user/<a href=\"void(0);\">[user:uid]</a>/membership_payments<br />\r\n(Please ask the website for a new password if you have issues logging in)</p>\r\n\r\n<p>Cheers,<br />\r\nThe HSBXL Bookkeeping Bot</p>\r\n"
+    format: basic_html
+settings:
+  'token options':
+    clear: true
+    'token replace': true
+  purge_override: false
+  purge_methods: {  }

@@ -52,6 +52,7 @@
         "drupal/private_files_download_permission": "^1.0",
         "drupal/redirect": "^1.0",
         "drupal/shield": "^1.1",
+        "drupal/ultimate_cron": "^2.0@alpha",
         "drush/drush": "~8.0",
         "hsbxl/hsbxl_gate": "dev-master",
         "hsbxl/hsbxl_meeting": "dev-master",
