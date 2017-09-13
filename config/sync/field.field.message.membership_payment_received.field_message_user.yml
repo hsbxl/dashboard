@@ -1,0 +1,29 @@
+uuid: 4a51316b-f4d1-4bea-8df8-a5519cd8cb38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.field_message_user
+    - message.template.membership_payment_received
+id: message.membership_payment_received.field_message_user
+field_name: field_message_user
+entity_type: message
+bundle: membership_payment_received
+label: User
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: name
+      direction: ASC
+    auto_create: false
+field_type: entity_reference
