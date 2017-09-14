@@ -8,4 +8,14 @@ id: bookkeeper
 label: Bookkeeper
 weight: 3
 is_admin: null
-permissions: {  }
+permissions:
+  - 'create field_space_coins'
+  - 'create field_structured_memo'
+  - 'edit field_space_coins'
+  - 'edit field_structured_memo'
+  - 'edit own field_space_coins'
+  - 'edit own field_structured_memo'
+  - 'view field_space_coins'
+  - 'view field_structured_memo'
+  - 'view own field_space_coins'
+  - 'view own field_structured_memo'

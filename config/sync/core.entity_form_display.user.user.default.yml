@@ -28,9 +28,10 @@ third_party_settings:
       weight: 0
       format_type: tabs
       format_settings:
+        label: Tabs
+        direction: vertical
         id: ''
         classes: ''
-        direction: horizontal
       label: Tabs
     group_personal:
       children:
