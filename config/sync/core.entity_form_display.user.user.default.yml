@@ -13,10 +13,70 @@ dependencies:
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
+    - field_group
     - image
-    - path
     - telephone
     - user
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - group_personal
+        - group_financial
+        - group_membership
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Tabs
+    group_personal:
+      children:
+        - user_picture
+        - field_first_name
+        - field_last_name
+        - field_telephone_number
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: Personal
+    group_membership:
+      children:
+        - field_voting_member
+        - field_board_member
+        - account
+      parent_name: group_tabs
+      weight: 21
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: false
+      label: Membership
+    group_financial:
+      children:
+        - field_space_coins
+        - field_structured_memo
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: Financial
 _core:
   default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
 id: user.user.default
@@ -25,18 +85,13 @@ bundle: user
 mode: default
 content:
   account:
-    weight: 1
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  contact:
-    weight: 10
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
   field_board_member:
     type: boolean_checkbox
-    weight: 7
+    weight: 4
     region: content
     settings:
       display_label: true
@@ -59,7 +114,7 @@ content:
     third_party_settings: {  }
   field_space_coins:
     type: number
-    weight: 8
+    weight: 5
     region: content
     settings:
       placeholder: ''
@@ -81,26 +136,10 @@ content:
     third_party_settings: {  }
   field_voting_member:
     type: boolean_checkbox
-    weight: 5
+    weight: 3
     region: content
     settings:
       display_label: true
-    third_party_settings: {  }
-  language:
-    weight: 9
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  path:
-    type: path
-    weight: 12
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  timezone:
-    weight: 11
-    region: content
-    settings: {  }
     third_party_settings: {  }
   user_picture:
     type: image_image
@@ -108,6 +147,10 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
-hidden: {  }
+hidden:
+  contact: true
+  language: true
+  path: true
+  timezone: true
