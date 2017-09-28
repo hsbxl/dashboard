@@ -1,6 +1,6 @@
 ---
 # Local Vagrant options.
-vagrant_hostname: local.dashboard.hsbxl.be
+vagrant_hostname: lcl.dashboard.hsbxl.be
 vagrant_machine_name: local-hsbxl-dashboard
 vagrant_ip: 192.168.20.20
 
