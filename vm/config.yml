@@ -82,3 +82,7 @@ drupal_enable_modules:
 php_xdebug_default_enable: 1
 
 php_xdebug_idekey: PHPSTORM
+
+# Configuration for copying local public SSH key to admin's authorized_keys.
+admin_copy_ssh_pubkey: true
+admin_pubkey: ~/.ssh/id_rsa.pub
