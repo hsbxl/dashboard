@@ -61,6 +61,7 @@
         "mollie/mollie-api-php": "^1.9",
         "mollie/oauth2-mollie-php": "^1.0",
         "simplesoftwareio/simple-qrcode": "^1.5",
+        "symfony/process": "~2.8.28",
         "tightenco/collect": "^5.4",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3"
