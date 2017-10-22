@@ -32,6 +32,8 @@
         "drupal/config_installer": "^1.4",
         "drupal/console": "~1.0",
         "drupal/core": "~8.0",
+        "drupal/delete_all": "^1.0@alpha",
+        "drupal/drush_delete": "^2.2",
         "drupal/eck": "^1.0@alpha",
         "drupal/examples": "1.x-dev",
         "drupal/features": "^3.5",

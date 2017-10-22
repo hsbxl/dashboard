@@ -78,6 +78,7 @@ drupal_enable_modules:
   - redirect
   - shield
   - simplified_bookkeeping
+  - ultimate_cron
 
 php_xdebug_default_enable: 1
 
