@@ -53,6 +53,7 @@
         "drupal/payment": "2.x-dev",
         "drupal/prepopulate": "^2.0@alpha",
         "drupal/private_files_download_permission": "^1.0",
+        "drupal/queue_ui": "2.x-dev",
         "drupal/redirect": "^1.0",
         "drupal/shield": "^1.1",
         "drupal/ultimate_cron": "^2.0@alpha",
