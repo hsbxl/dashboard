@@ -68,10 +68,12 @@ drupal_enable_modules:
   - admin_toolbar
   - admin_toolbar_tools
   - auto_entitylabel
+  - devel
   - features_ui
   - hsbxl_gate
   - hsbxl_meeting
   - hsbxl_members
+  - kint
   - migrate_source_csv
   - migrate_tools
   - pathauto
