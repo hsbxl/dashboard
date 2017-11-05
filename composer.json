@@ -23,7 +23,7 @@
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/admin_toolbar": "^1.0",
         "drupal/auto_entitylabel": "^2.0@beta",
-        "drupal/bootstrap": "^3.5",
+        "drupal/bootstrap": "^3.6",
         "drupal/cer": "^4.0@alpha",
         "drupal/charts": "^3.0@alpha",
         "drupal/commerce": "^2.0@RC",
