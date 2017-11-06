@@ -66,6 +66,7 @@
         "hsbxl/hsbxl_gate": "dev-master",
         "hsbxl/hsbxl_meeting": "dev-master",
         "hsbxl/hsbxl_members": "dev-master",
+        "hsbxl/hsbxl_numbers": "dev-master",
         "mollie/mollie-api-php": "^1.9",
         "mollie/oauth2-mollie-php": "^1.0",
         "simplesoftwareio/simple-qrcode": "^1.5",
