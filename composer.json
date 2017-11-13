@@ -17,7 +17,6 @@
     ],
     "require": {
         "betz/simplified_bookkeeping": "dev-master",
-        "clippings/phantom-pdf": "^0.10.1",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.2",
@@ -31,7 +30,7 @@
         "drupal/config_devel": "^1.0",
         "drupal/config_installer": "^1.4",
         "drupal/console": "~1.0",
-        "drupal/core": "~8.0",
+        "drupal/core": "~8.4.2",
         "drupal/delete_all": "^1.0@alpha",
         "drupal/drush_delete": "^2.2",
         "drupal/ds": "^3.1",
@@ -70,7 +69,6 @@
         "mollie/mollie-api-php": "^1.9",
         "mollie/oauth2-mollie-php": "^1.0",
         "simplesoftwareio/simple-qrcode": "^1.5",
-        "symfony/process": "~2.8.28",
         "tightenco/collect": "^5.4",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3"

@@ -31,6 +31,7 @@ installed_extras:
   - nodejs
   - phantomjs
   - pimpmylog
+  - php-bcmath
   # - redis
   # - ruby
   # - selenium
