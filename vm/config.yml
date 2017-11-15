@@ -80,9 +80,11 @@ drupal_enable_modules:
   - pathauto
   - queue_ui
   - redirect
+  - rules
   - shield
   - simplified_bookkeeping
   - ultimate_cron
+  - views_bulk_operations
 
 php_xdebug_default_enable: 1
 
