@@ -26,7 +26,6 @@
         "drupal/bootstrap": "^3.6",
         "drupal/cer": "^4.0@alpha",
         "drupal/charts": "^3.0@alpha",
-        "drupal/commerce": "^2.0@RC",
         "drupal/composer": "^1.4",
         "drupal/config_devel": "^1.0",
         "drupal/config_installer": "^1.4",
