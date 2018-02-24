@@ -1,6 +1,6 @@
 ---
 
-vagrant_box: geerlingguy/debian9
+vagrant_box: geerlingguy/ubuntu1604
 
 # Composer project settings.
 drupal_build_composer_project: true
